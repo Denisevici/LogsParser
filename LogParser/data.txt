@@ -1,0 +1,1882 @@
+jsa has no 3
+ai has no 37
+one has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\error.php:13:1:13:18,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\techo ($errstr);,
+  "Entrypoint": {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "DataTrace":
+  {
+    "Value": \t\techo ($errstr);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\error.php,
+    "BeginLine": 13,
+    "BeginColumn": 1,
+    "EndLine": 13,
+    "EndColumn": 18
+  },
+{
+
+one has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\error.php:117:1:117:26,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\techo nl2br ( $errstr );,
+  "Entrypoint": {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "DataTrace":
+  {
+    "Value": \t\techo nl2br ( $errstr );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\error.php,
+    "BeginLine": 117,
+    "BeginColumn": 1,
+    "EndLine": 117,
+    "EndColumn": 26
+  },
+{
+
+one has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:90:1:90:107,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t<span style='float:left;'>Time: <?php echo $profiler->Timer()?> seconds <span style='color:gray;'>(<?php,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t<span style='float:left;'>Time: <?php echo $profiler->Timer()?> seconds <span style='color:gray;'>(<?php
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 90,
+    "BeginColumn": 1,
+    "EndLine": 90,
+    "EndColumn": 107
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\error.php:11:1:11:17,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\techo $errline;,
+  "Entrypoint": {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "DataTrace":
+  {
+    "Value": \t\techo $errline;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\error.php,
+    "BeginLine": 11,
+    "BeginColumn": 1,
+    "EndLine": 11,
+    "EndColumn": 17
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\error.php:114:1:114:17,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\techo $errline;,
+  "Entrypoint": {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction PresentError($errno, $errstr, $errfile, $errline, $exception = null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\core\\errorhandler.php,
+    "BeginLine": 99,
+    "BeginColumn": 1,
+    "EndLine": 99,
+    "EndColumn": 79
+  },
+  "DataTrace":
+  {
+    "Value": \t\techo $errline;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\error.php,
+    "BeginLine": 114,
+    "BeginColumn": 1,
+    "EndLine": 114,
+    "EndColumn": 17
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:29:1:29:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo $t->getName();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:27:1:27:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class($t);,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo get_class($t);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 27,
+    "BeginColumn": 1,
+    "EndLine": 27,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:27:1:27:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class($t);,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo get_class($t);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 27,
+    "BeginColumn": 1,
+    "EndLine": 27,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:29:1:29:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo $t->getName();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:33:1:33:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 33,
+    "BeginColumn": 1,
+    "EndLine": 33,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:58:1:58:56,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 58,
+    "BeginColumn": 1,
+    "EndLine": 58,
+    "EndColumn": 56
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 58,
+    "BeginColumn": 1,
+    "EndLine": 58,
+    "EndColumn": 56
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:27:1:27:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class($t);,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo get_class($t);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 27,
+    "BeginColumn": 1,
+    "EndLine": 27,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:58:1:58:56,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 58,
+    "BeginColumn": 1,
+    "EndLine": 58,
+    "EndColumn": 56
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 58,
+    "BeginColumn": 1,
+    "EndLine": 58,
+    "EndColumn": 56
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:29:1:29:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo $t->getName();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:33:1:33:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 33,
+    "BeginColumn": 1,
+    "EndLine": 33,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:27:1:27:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class($t);,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo get_class($t);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 27,
+    "BeginColumn": 1,
+    "EndLine": 27,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:29:1:29:23,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t=$test->failedTest();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 27
+  },
+  {
+    "Value": \t\t\techo $t->getName();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 23
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:33:1:33:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 33,
+    "BeginColumn": 1,
+    "EndLine": 33,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:93:1:93:124,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t?>)</span></span> Total: <?php echo ($result->count());?> Tests in <?php echo count(\\jf\\TestLauncher::$TestFiles);?> Files,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t?>)</span></span> Total: <?php echo ($result->count());?> Tests in <?php echo count(\\jf\\TestLauncher::$TestFiles);?> Files
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 93,
+    "BeginColumn": 1,
+    "EndLine": 93,
+    "EndColumn": 124
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:33:1:33:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 33,
+    "BeginColumn": 1,
+    "EndLine": 33,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:58:1:58:56,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$trace=($test->thrownException()->getTrace());
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 36,
+    "BeginColumn": 1,
+    "EndLine": 36,
+    "EndColumn": 50
+  },
+  {
+    "Value": \t\t\t\t$file=$trace[0]['file'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 39,
+    "BeginColumn": 1,
+    "EndLine": 39,
+    "EndColumn": 29
+  },
+  {
+    "Value": \t\t\t\t$dir=substr($file, 0,strlen(jf::root()));
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 54,
+    "BeginColumn": 1,
+    "EndLine": 54,
+    "EndColumn": 46
+  },
+  {
+    "Value": \t\t\t\t$dir=substr($file,0,strpos($file,DIRECTORY_SEPARATOR,strlen($dir)+1));
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 55,
+    "BeginColumn": 1,
+    "EndLine": 55,
+    "EndColumn": 75
+  },
+  {
+    "Value": \t\t\t\t$dir=substr($file,0,strpos($file,DIRECTORY_SEPARATOR,strlen($dir)+1));
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 56,
+    "BeginColumn": 1,
+    "EndLine": 56,
+    "EndColumn": 75
+  },
+  {
+    "Value": \t\t\t\t$filename=substr($file,strlen($dir)+1);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 57,
+    "BeginColumn": 1,
+    "EndLine": 57,
+    "EndColumn": 44
+  },
+  {
+    "Value": \t\t\t\t$line=$trace[0]['line'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 40,
+    "BeginColumn": 1,
+    "EndLine": 40,
+    "EndColumn": 29
+  },
+  {
+    "Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 58,
+    "BeginColumn": 1,
+    "EndLine": 58,
+    "EndColumn": 56
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\web.php:58:1:58:56,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$trace=($test->thrownException()->getTrace());
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 36,
+    "BeginColumn": 1,
+    "EndLine": 36,
+    "EndColumn": 50
+  },
+  {
+    "Value": \t\t\t\t$file=$trace[0]['file'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 39,
+    "BeginColumn": 1,
+    "EndLine": 39,
+    "EndColumn": 29
+  },
+  {
+    "Value": \t\t\t\t$dir=substr($file, 0,strlen(jf::root()));
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 54,
+    "BeginColumn": 1,
+    "EndLine": 54,
+    "EndColumn": 46
+  },
+  {
+    "Value": \t\t\t\t$dir=substr($file,0,strpos($file,DIRECTORY_SEPARATOR,strlen($dir)+1));
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 55,
+    "BeginColumn": 1,
+    "EndLine": 55,
+    "EndColumn": 75
+  },
+  {
+    "Value": \t\t\t\t$dir=substr($file,0,strpos($file,DIRECTORY_SEPARATOR,strlen($dir)+1));
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 56,
+    "BeginColumn": 1,
+    "EndLine": 56,
+    "EndColumn": 75
+  },
+  {
+    "Value": \t\t\t\t$filename=substr($file,strlen($dir)+1);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 57,
+    "BeginColumn": 1,
+    "EndLine": 57,
+    "EndColumn": 44
+  },
+  {
+    "Value": \t\t\t\t$line=$trace[0]['line'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 40,
+    "BeginColumn": 1,
+    "EndLine": 40,
+    "EndColumn": 29
+  },
+  {
+    "Value": \t\t\t\techo $dir.\"/<strong>{$filename}</strong> :{$line}\";
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\web.php,
+    "BeginLine": 58,
+    "BeginColumn": 1,
+    "EndLine": 58,
+    "EndColumn": 56
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:18:1:18:26,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class ( $t );,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo get_class ( $t );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 18,
+    "BeginColumn": 1,
+    "EndLine": 18,
+    "EndColumn": 26
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:20:1:20:24,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo $t->getName ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 20,
+    "BeginColumn": 1,
+    "EndLine": 20,
+    "EndColumn": 24
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:25:1:25:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:25:1:25:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:18:1:18:26,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class ( $t );,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo get_class ( $t );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 18,
+    "BeginColumn": 1,
+    "EndLine": 18,
+    "EndColumn": 26
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:38:1:38:19,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $filename;,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$trace = ($test->thrownException ()->getTrace ());
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\t\t$file = $trace [3] ['file'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 33,
+    "BeginColumn": 1,
+    "EndLine": 33,
+    "EndColumn": 33
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strlen ( jf::root () ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 34,
+    "BeginColumn": 1,
+    "EndLine": 34,
+    "EndColumn": 55
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 35,
+    "BeginColumn": 1,
+    "EndLine": 35,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 36,
+    "BeginColumn": 1,
+    "EndLine": 36,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$filename = substr ( $file, strlen ( $dir ) + 1 );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 37,
+    "BeginColumn": 1,
+    "EndLine": 37,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\techo $filename;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 38,
+    "BeginColumn": 1,
+    "EndLine": 38,
+    "EndColumn": 19
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:18:1:18:26,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class ( $t );,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo get_class ( $t );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 18,
+    "BeginColumn": 1,
+    "EndLine": 18,
+    "EndColumn": 26
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:20:1:20:24,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo $t->getName ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 20,
+    "BeginColumn": 1,
+    "EndLine": 20,
+    "EndColumn": 24
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:25:1:25:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:38:1:38:19,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $filename;,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$trace = ($test->thrownException ()->getTrace ());
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\t\t$file = $trace [0] ['file'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 31,
+    "BeginColumn": 1,
+    "EndLine": 31,
+    "EndColumn": 33
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strlen ( jf::root () ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 34,
+    "BeginColumn": 1,
+    "EndLine": 34,
+    "EndColumn": 55
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 35,
+    "BeginColumn": 1,
+    "EndLine": 35,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 36,
+    "BeginColumn": 1,
+    "EndLine": 36,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$filename = substr ( $file, strlen ( $dir ) + 1 );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 37,
+    "BeginColumn": 1,
+    "EndLine": 37,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\techo $filename;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 38,
+    "BeginColumn": 1,
+    "EndLine": 38,
+    "EndColumn": 19
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:18:1:18:26,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo get_class ( $t );,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo get_class ( $t );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 18,
+    "BeginColumn": 1,
+    "EndLine": 18,
+    "EndColumn": 26
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:20:1:20:24,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo $t->getName ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 20,
+    "BeginColumn": 1,
+    "EndLine": 20,
+    "EndColumn": 24
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:25:1:25:40,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $test->getExceptionAsString ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\techo $test->getExceptionAsString ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 25,
+    "BeginColumn": 1,
+    "EndLine": 25,
+    "EndColumn": 40
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:38:1:38:19,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $filename;,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$trace = ($test->thrownException ()->getTrace ());
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\t\t$file = $trace [0] ['file'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 31,
+    "BeginColumn": 1,
+    "EndLine": 31,
+    "EndColumn": 33
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strlen ( jf::root () ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 34,
+    "BeginColumn": 1,
+    "EndLine": 34,
+    "EndColumn": 55
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 35,
+    "BeginColumn": 1,
+    "EndLine": 35,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 36,
+    "BeginColumn": 1,
+    "EndLine": 36,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$filename = substr ( $file, strlen ( $dir ) + 1 );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 37,
+    "BeginColumn": 1,
+    "EndLine": 37,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\techo $filename;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 38,
+    "BeginColumn": 1,
+    "EndLine": 38,
+    "EndColumn": 19
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:38:1:38:19,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $filename;,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$trace = ($test->thrownException ()->getTrace ());
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 29,
+    "BeginColumn": 1,
+    "EndLine": 29,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\t\t$file = $trace [3] ['file'];
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 33,
+    "BeginColumn": 1,
+    "EndLine": 33,
+    "EndColumn": 33
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strlen ( jf::root () ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 34,
+    "BeginColumn": 1,
+    "EndLine": 34,
+    "EndColumn": 55
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 35,
+    "BeginColumn": 1,
+    "EndLine": 35,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$dir = substr ( $file, 0, strpos ( $file, DIRECTORY_SEPARATOR, strlen ( $dir ) + 1 ) );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 36,
+    "BeginColumn": 1,
+    "EndLine": 36,
+    "EndColumn": 91
+  },
+  {
+    "Value": \t\t\t$filename = substr ( $file, strlen ( $dir ) + 1 );
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 37,
+    "BeginColumn": 1,
+    "EndLine": 37,
+    "EndColumn": 54
+  },
+  {
+    "Value": \t\t\techo $filename;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 38,
+    "BeginColumn": 1,
+    "EndLine": 38,
+    "EndColumn": 19
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\_japp\\view\\_internal\\test\\result\\cli.php:20:1:20:24,
+  "ScanMode": FromPublicProtected,
+  "Type": Cross-site Scripting,
+  "VulnerableExpression.Value": \t\t\techo $t->getName ();,
+  "Entrypoint": {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "TaintDataEntries":
+  {
+    "Value": \tfunction OutputResult($Result,$Profiler,$Coverage=null)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\model\\launcher\\test.php,
+    "BeginLine": 88,
+    "BeginColumn": 1,
+    "EndLine": 88,
+    "EndColumn": 57
+  },
+  "DataTrace":
+  {
+    "Value": \t\t\t$t = $test->failedTest ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 16,
+    "BeginColumn": 1,
+    "EndLine": 16,
+    "EndColumn": 30
+  },
+  {
+    "Value": \t\t\techo $t->getName ();
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\_japp\\view\\_internal\\test\\result\\cli.php,
+    "BeginLine": 20,
+    "BeginColumn": 1,
+    "EndLine": 20,
+    "EndColumn": 24
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\app\\plugin\\doctrine\\doctrine\\common\\persistence\\mapping\\driver\\symfonyfilelocator.php:125:1:125:75,
+  "ScanMode": FromPublicProtected,
+  "Type": Deserialization of Untrusted Data,
+  "VulnerableExpression.Value": if (is_file($path.DIRECTORY_SEPARATOR.$defaultFileName)) {,
+  "Entrypoint": {
+    "Value": public function fileExists($className)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 119,
+    "BeginColumn": 1,
+    "EndLine": 119,
+    "EndColumn": 43
+  },
+  "TaintDataEntries":
+  {
+    "Value": public function fileExists($className)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 119,
+    "BeginColumn": 1,
+    "EndLine": 119,
+    "EndColumn": 43
+  },
+  {
+    "Value": if (is_file($path.DIRECTORY_SEPARATOR.$defaultFileName)) {
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 125,
+    "BeginColumn": 1,
+    "EndLine": 125,
+    "EndColumn": 75
+  },
+  "DataTrace":
+  {
+    "Value": public function fileExists($className)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 119,
+    "BeginColumn": 1,
+    "EndLine": 119,
+    "EndColumn": 43
+  },
+  {
+    "Value": $defaultFileName = str_replace('\\\\', '.', $className).$this->fileExtension;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 121,
+    "BeginColumn": 1,
+    "EndLine": 121,
+    "EndColumn": 84
+  },
+  {
+    "Value": if (is_file($path.DIRECTORY_SEPARATOR.$defaultFileName)) {
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 125,
+    "BeginColumn": 1,
+    "EndLine": 125,
+    "EndColumn": 75
+  },
+{
+
+three has not this vuln:
+
+{
+  "GroupId": c:\\work\\projects\\applications\\php\\webgoatphp-master\\app\\plugin\\doctrine\\doctrine\\common\\persistence\\mapping\\driver\\symfonyfilelocator.php:139:1:139:39,
+  "ScanMode": FromPublicProtected,
+  "Type": Deserialization of Untrusted Data,
+  "VulnerableExpression.Value": return is_file($filename);,
+  "Entrypoint": {
+    "Value": public function fileExists($className)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 119,
+    "BeginColumn": 1,
+    "EndLine": 119,
+    "EndColumn": 43
+  },
+  "TaintDataEntries":
+  {
+    "Value": public function fileExists($className)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 119,
+    "BeginColumn": 1,
+    "EndLine": 119,
+    "EndColumn": 43
+  },
+  {
+    "Value": return is_file($filename);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 139,
+    "BeginColumn": 1,
+    "EndLine": 139,
+    "EndColumn": 39
+  },
+  "DataTrace":
+  {
+    "Value": public function fileExists($className)
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 119,
+    "BeginColumn": 1,
+    "EndLine": 119,
+    "EndColumn": 43
+  },
+  {
+    "Value": $filename = $path.'/'.strtr(substr($className, strlen($prefix)+1), '\\\\', '.').$this->fileExtension;
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 138,
+    "BeginColumn": 1,
+    "EndLine": 138,
+    "EndColumn": 112
+  },
+  {
+    "Value": return is_file($filename);
+    "File": C:\\Work\\Projects\\Applications\\PHP\\WebGoatPHP-master\\app\\plugin\\doctrine\\Doctrine\\Common\\Persistence\\Mapping\\Driver\\SymfonyFileLocator.php,
+    "BeginLine": 139,
+    "BeginColumn": 1,
+    "EndLine": 139,
+    "EndColumn": 39
+  },
+{
+
